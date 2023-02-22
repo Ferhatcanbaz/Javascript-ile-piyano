@@ -1,0 +1,27 @@
+.piano {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 250px;
+}
+
+.key {
+  width: 30px;
+  height: 120px;
+  margin: 0 1px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  position: relative;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+  width: 20px;
+  height: 80px;
+  margin-top: -60px;
+  z-index: 1;
+}
